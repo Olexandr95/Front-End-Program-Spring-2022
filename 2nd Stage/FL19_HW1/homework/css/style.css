@@ -1,0 +1,299 @@
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: rgb(240, 234, 234);
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.header-box{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+  background-color: white;
+}
+.header-bg{
+  background-color: #76cdd8 ;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-text{
+  font-size: 48px;
+}
+.header-text{
+font-size: 16px;
+}
+.header-tittle{
+  color: #76cdd8;
+}
+.link{
+  color: #76cdd8;
+  text-decoration: none;
+}
+
+.header-content{
+  display: flex;
+  flex-direction: column;
+  padding: 90px 40px 20px 40px;
+}
+.header-content-title{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 20px 40px;
+}
+.header-button{
+  background-color: rgb(7 147 147);
+  width: 180px;
+  height: 50px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-button:hover{
+  transition: .7s;
+  background-color: rgb(118, 205, 216)
+}
+.flex-end{
+  display: flex;
+  justify-content: end;
+}
+.haader-img-round{
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+}
+#haader-img-round:hover{
+  transition: .7s;
+  transform: scale(1.1);
+}
+.haader-img:hover{
+  transition: .7s;
+  transform: scale(1.1);
+}
+.header-text-end{
+  font-size: 14px;
+}
+.haader-img{
+  width: 500px;
+  height: 350px;
+}
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+.section-content{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content-box{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 450px;
+  background-color: white;
+}
+.content-title{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px 20px 40px;
+}
+.content-img{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 350px;
+  background-color: white;
+}
+.content-img:hover{
+  transition: .7s;
+  transform: scale(1.1);
+}
+.padding-rigth{
+  padding-right: 30px;
+}
+.section-table{
+  width: 350px;
+  height: 500px;
+}
+.content-color{
+  background-color: white;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 530px;
+}
+.table-img{
+    width: 330px;
+    height: 530px;
+}
+.table-img:hover{
+  transition: .7s;
+  transform: scale(1.1);
+}
+.table-box{
+  margin: 30px 0px 0px 30px;
+  padding-bottom: 25px;
+  border: rgb(6, 206, 206) 1px solid;
+}
+.table-title{
+background-color: rgb(7 147 147);
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+h4{
+  padding: 0;
+  margin: 0;
+}
+.table-title-text{
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.table-content-text{
+  padding-left: 25px;
+}
+.margin-rigth{
+  margin-right: 30px;
+}
+.footer-title{
+  background-color: rgb(6, 206, 206);
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  color: white;
+  height: 150px;
+}
+.footer-title-text{
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 120px;
+}
+.footer-form{
+  width: 760px;
+  height: 385px;
+  background-color: white;
+  margin-top: -70px;
+  margin-bottom: -70px;
+  z-index: 5;
+}
+.footer-input{
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  border: rgb(226, 220, 220) 1px solid;
+}
+.footer-form-box{
+  display: flex;
+  flex-direction: column;
+}
+.footer-form-position{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.footer-text-area{
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  border-color: rgb(226, 220, 220);
+}
+.select{
+  width: 208px;
+  height: 30px ;
+  color: gray;
+}
+.submit{
+  margin-top: 20px;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  font-size: 16px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.footer-end{
+  background-color: rgb(7 147 147);
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  color: white;
+}
+.foter-text{
+  font-size: 14px;
+  color: grey;
+}
+#standart:hover{
+  transition: .7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 0.2rem #24d4d4
+  
+}
+#advansed:hover{
+  transition: .7s;
+  transform: scale(1.1);
+  box-shadow: 0 0 0 0.2rem #24d4d4
+  
+}
+#advansed:hover::after{
+  display: flex;
+  justify-content: center;
+  color: red;
+  content: '*  Spicial discount';
+  font-size: 14px;
+}
+.footer-input:hover{
+  box-shadow: 0 0 0 0.2rem #24d4d4
+}
+.footer-text-area:hover{
+  box-shadow: 0 0 0 0.2rem #24d4d4
+}
+#triangl-left{
+  position: relative;
+}
+#triangl-left:hover{
+  transition: .7s;
+  color: #76cdd8;
+}
+#triangl-left:hover::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  height: 40px;
+  border-top: 80px solid #76cdd8;
+  border-right: 80px solid transparent;
+}
+.triangl-right{
+  position: relative;
+}
+.triangl-right:hover{
+  transition: .7s;
+  color: #76cdd8;
+}
+.triangl-right:hover::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  border-top: 80px solid #76cdd8;
+  border-left: 80px solid transparent;
+}

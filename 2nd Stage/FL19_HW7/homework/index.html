@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Tools</title>
+      <meta charset="UTF-8">
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+      <link rel="stylesheet" href="./dist/style.css">
+  </head>
+
+  <body>
+    <div class="game">
+      <h1>Let’s play!</h1>
+      <h2>Everybody knows the rules:</h2>
+      <ul class="flex">
+        <li>Scissors beats a paper</li>
+        <li>Paper beats rock</li>
+        <li>Rock beats scissors</li>
+        <li>And we play up to three wins!</li>
+      </ul>
+      <div class="counter-block">
+        <p>USER</p><br>
+        <div class="count count-user">0</div>
+        <span>:</span>
+        <p>COMP</p><br>
+        <div class="count count-comp">0</div>
+      </div>
+      <div class="figure-container">
+        <div class="user-field">
+          <button class="field rock" data-field="r">Rock</button>
+          <button class="field scissors" data-field="s">Scissors</button>
+          <button class="field paper" data-field="p">Paper</button>
+        </div>
+        <div class="comp-field">
+          <button class="field rock" data-field="r">Rock</button>
+          <button class="field scissors" data-field="s">Scissors</button>
+          <button class="field paper" data-field="p">Paper</button>
+        </div>
+      </div>
+      <h3 class="result">Make your Choise</h3>
+    </div>
+    <div class="buttons">
+      <button class="play">Reset Game</button>
+    </div>
+    <script src="/dist/bundle.js"></script>
+  </body>
+</html>

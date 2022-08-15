@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+#bg-header{
+   background-image: url(../img/header-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: 0px 33px;
+}
+.bg-color{
+   background-color: RGBA(0,0,0,0.77);
+   background-size: cover;
+}

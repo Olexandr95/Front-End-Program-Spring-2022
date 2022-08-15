@@ -1,0 +1,110 @@
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    overflow: hidden;
+}
+header {
+    font-size:78px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.characters-list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 10px;
+}
+button {
+    color: white;
+    cursor: pointer;
+    font-size: 32px;
+    text-transform: uppercase;
+    height: 100px;
+    width: 300px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.hide{
+    display: none;
+}
+
+button:hover,
+.hero:hover {
+    transform: scale(1.5);
+    background-color: white;
+    color: black;
+}
+.battle-field {
+    margin-top: 100px;
+    display: flex;
+    font-size: 24px;
+}
+
+.hero-box {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fight {
+    position: absolute;
+    bottom: 57vh;
+}
+.hero-box:first-of-type {
+    margin-right: 30px;
+}
+
+.hero-box h2 {
+    font-family: var(--company-font);
+    font-size: larger;
+    color: white;
+}
+
+.hero-box span {
+    font-family: var(--main-font);
+    color: white;
+}
+
+.hero-box span:first-of-type:before {
+    content: 'health: ';
+    color: rgb(58, 247, 58);
+}
+
+.hero-box span:nth-of-type(2):before {
+    content: 'atack: ';
+    color: red;
+}
+
+.hero-box span:nth-of-type(3):before {
+    content: 'armor: ';
+    color: rgb(18, 140, 180);
+}
+.hero-box span:nth-of-type(4):before {
+   content: 'atack-speed: ';
+   color: rgb(251, 255, 24);
+}

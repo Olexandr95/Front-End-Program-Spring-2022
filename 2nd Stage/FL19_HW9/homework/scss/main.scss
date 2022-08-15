@@ -1,0 +1,118 @@
+$blue: #5679ec;
+$grey: #9d9dd7;
+$white: #eee;
+$box-shadow-color : rgba(0, 0, 0, 0.5);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+ 
+ html {
+	font-size: 12px;
+ }
+ 
+ .container {
+	width: 100%;
+	color: $white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+ 
+ .calendar {
+	width: 45rem;
+	height: auto;
+	background-color: $grey;
+	box-shadow: 0 0.5rem 3rem $box-shadow-color;
+	border-radius: 10px;
+ }
+ 
+ .month {
+	width: 100%;
+	height: 12rem;
+	background-color: $blue;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 2rem;
+	text-align: center;
+	text-shadow: 0 0.3rem 0.5rem $box-shadow-color;
+ }
+ 
+ .month div {
+	font-size: 32px;
+	cursor: pointer;
+	font-weight: 600;
+ }
+ 
+ .month h1 {
+	font-size: 48px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	margin-bottom: 10px;
+ }
+ 
+ .month p {
+	font-size: 24px;
+ }
+ 
+ .weekdays {
+	width: 100%;
+	height: 70px;
+	padding: 0 0.4rem;
+	display: flex;
+	align-items: center;
+ }
+ 
+ .weekdays div {
+	font-size: 1.5rem;
+	font-weight: 400;
+	letter-spacing: 0.1rem;
+	width: calc(44.2rem / 7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 0 0.3rem 0.5rem $box-shadow-color;
+ }
+ 
+ .days {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 3px;
+ }
+ 
+ .days div {
+	font-size: 1.4rem;
+	margin: 0.3rem;
+	width: calc(40.2rem / 7);
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 0 0.3rem 0.5rem $box-shadow-color;
+	transition: background-color 0.2s;
+ }
+ 
+ .days div:hover:not(.today) {
+	background-color: $blue;
+	border: 0.2rem solid #777;
+	cursor: pointer;
+	border-radius: 10px;
+ }
+ 
+ .prev-date,
+ .next-date {
+	opacity: 0.5;
+ }
+ 
+ .today {
+	background-color: $blue;
+	border-radius: 100%;
+ }
+.prev, .next{
+	color: $white
+}
+ 

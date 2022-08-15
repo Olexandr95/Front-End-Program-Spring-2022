@@ -1,0 +1,92 @@
+h1{
+   font-size: 60px;
+   margin: 0;
+}
+.flex{
+   display: flex;
+   justify-content: space-around;
+   
+
+}
+.btn-green{
+   background-color: rgb(6, 207, 130);
+   font-size: 24px;
+   border-radius: 10px;
+   margin-right: 20px;
+   color: white;
+   font-weight: 500;
+   padding: 10px;
+   border-color: rgb(6, 207, 130);
+}
+.container{
+   justify-content: space-evenly;
+   margin-top: 20px;
+}
+.left-box,
+.rigth-box{
+   border: gray solid 2px;
+   width: 350px;
+   height: auto
+   
+}
+.card-title{
+   background-color: rgb(130, 225, 253);
+   font-size: 18px;
+   margin: 0;
+   padding: 0;
+   font-weight: 400;
+   text-align: center;
+   margin-top: 20px;
+}
+.card-title:hover{
+   border: 2px blue solid;
+}
+.card-fetch{
+   background-color: rgb(130, 225, 253);
+   font-size: 18px;
+   margin-top: 10px;
+}
+.card-fetch:hover{
+   border: 2px blue solid;
+}
+.edit{
+   background-color: rgb(44, 139, 248);
+   font-size: 16px;
+   color: white;
+   border-radius: 8px;
+   padding: 5px 15px 5px 15px;
+   border-color: rgb(44, 139, 248);
+}
+.delete{
+   background-color: rgb(253, 47, 19);
+   font-size: 16px;
+   color: white;
+   border-radius: 8px;
+   padding: 5px 15px 5px 15px;
+   border-color: rgb(253, 47, 19);
+}
+.save-btn{
+   background-color: rgb(6, 207, 130);
+   font-size: 16px;
+   color: white;
+   border-radius: 8px;
+   padding: 5px 15px 5px 15px;
+   border-color: rgb(6, 207, 130);
+}
+.save-box{
+   margin-top: 5px;
+   margin-left: 47px;
+}
+.hide{
+   display: none;
+}
+.load{
+   display: block;
+}
+.hide-load{
+   display: none;
+}
+.show{
+   display: flex;
+   justify-content: center;
+}

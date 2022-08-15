@@ -1,0 +1,33 @@
+.click-me{
+   background-color: rgb(144, 144, 250);
+   border-radius: 100%;
+   padding: 100px;
+   font-weight: 600;
+   font-size: 24px;
+}
+.button{
+   background-color: rgb(252, 232, 143);
+   border-radius: 5px;
+   margin: 10px;
+   padding: 5px;
+}
+.game{
+   display: grid;
+}
+.button-position{
+  display: flex; 
+  justify-content: center;
+  
+}
+.main-button{
+   display: flex; 
+   justify-content: center;
+   margin-top: 50px;
+
+}
+.input-position{
+   display: flex; 
+   justify-content: center;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
